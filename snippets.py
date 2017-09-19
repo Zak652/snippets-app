@@ -14,7 +14,6 @@ def put (name, snippet):
 	return name, snippet
 
 def get (name):
-
 	"""
 	Returns the Snippet with a given name
 
