@@ -52,6 +52,11 @@ def modify (name, snippet):
 	Return the snippet
 	"""
 	logging.error("FIXME: Unimplemented - modify({!r}, {!r})".format(name, snippet))
+	cursor = connection.cursor()
+	command = "update snippets set message =%s where keyword=%s"
+	cursor.execute(command, (snippet, name))
+	connection.commit()
+	logging.debug("Your snippet has been updated")
 	return name, snippet
 
 def remove (name):
@@ -83,6 +88,12 @@ def main():
 	get_parser = subparsers.add_parser("get", help="Retrive a snippet of a given name")
 	get_parser.add_argument("name", help="Name of the snippet")
 
+	#Subparser for the modify command
+	logging.debug("Constructing modify subparser")
+	modify_parser = subparsers.add_parser("modify", help="Update a snippet of a given name")
+	put_parser.add_argument("name", help="Name of the snippet")
+	put_parser.add_argument("snippet", help="Snippet")
+
 
 	arguments = parser.parse_args()
 
@@ -97,6 +108,10 @@ def main():
 	elif command == "get":
 		snippet = get(**arguments)
 		print("Retrieved snippet: {!r}".format(snippet))
+
+	elif command == "modify":
+		name, snippet = modify(**arguments)
+		print("Updated {!r} message to {!r}".format(name, snippet))
 
 if __name__=="__main__":
 	main()
