@@ -17,10 +17,13 @@ def put (name, snippet):
 	Return name and the snippet
 	"""
 	logging.error("FIXME: Unimplemented - put({!r}, {!r})".format(name, snippet))
-	cursor = connection.cursor()
-	command = "insert into snippets values (%s, %s)"
-	cursor.execute(command, (name, snippet))
-	connection.commit()
+	with connection, connection.cursor() as cursor:
+		try:
+			cursor.execute("insert into snippets values (%s, %s)", (name, snippet))
+		except psycopg2.IntegrityError as e:
+			connection.rollback()
+			cursor.execute("update snippets set message = %s where keyword = %s", (snippet, name))
+	# connection.commit()
 	logging.debug("snippet Stored successfully.")
 	return name, snippet
 
@@ -33,13 +36,13 @@ def get (name):
 	Return the snippet
 	"""
 	logging.error("FIXME: Unimplemented - get({!r})".format(name))
-	cursor = connection.cursor()
-	command = "select message from snippets where keyword=%s"
-	cursor.execute(command, (name,))
-	message = cursor.fetchone()
-	# print (message)
+	with connection, connection.cursor() as cursor:
+		cursor.execute("select message from snippets where keyword = %s", (name,))
+		row = cursor.fetchone()
 	logging.debug("Your snippet has been retrieved.")
-	return message
+	if not row:
+		return "There's no such snippet"	
+	return row
 
 def modify (name, snippet):
 	"""
@@ -68,7 +71,9 @@ def remove (name):
 	Return confirmation message
 	"""
 	logging.error("FIXME: Unimplemented - remove({!r})".format(name))
-	return ""
+	with connection, connection.cursor() as cursor:
+		cursor.execute("delete from snippets where keyword = %s", (name,))
+	return name
 
 def main():
 	"""Main function"""
@@ -91,8 +96,13 @@ def main():
 	#Subparser for the modify command
 	logging.debug("Constructing modify subparser")
 	modify_parser = subparsers.add_parser("modify", help="Update a snippet of a given name")
-	put_parser.add_argument("name", help="Name of the snippet")
-	put_parser.add_argument("snippet", help="Snippet")
+	modify_parser.add_argument("name", help="Name of the snippet")
+	modify_parser.add_argument("snippet", help="Snippet")
+
+	#Subparser for the remove command
+	logging.debug("Constructing remove subparser")
+	remove_parser = subparsers.add_parser("remove", help="Removes record of a given name")
+	remove_parser.add_argument("name", help="Name of the snippet")
 
 
 	arguments = parser.parse_args()
@@ -112,6 +122,10 @@ def main():
 	elif command == "modify":
 		name, snippet = modify(**arguments)
 		print("Updated {!r} message to {!r}".format(name, snippet))
+
+	elif command == "remove":
+		name = remove(**arguments)
+		print("{!r} snippet has been deleted.".format(name))
 
 if __name__=="__main__":
 	main()
