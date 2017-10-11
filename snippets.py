@@ -38,11 +38,14 @@ def get (name):
 	logging.error("FIXME: Unimplemented - get({!r})".format(name))
 	with connection, connection.cursor() as cursor:
 		cursor.execute("select message from snippets where keyword = %s", (name,))
-		row = cursor.fetchone()
-	logging.debug("Your snippet has been retrieved.")
-	if not row:
-		return "There's no such snippet"	
-	return row
+		message = cursor.fetchone()
+	
+	if not message:
+		logging.debug("Your snippet was not found")
+		return "There's no such snippet"
+	else:
+		logging.debug("Your snippet has been retrieved.")
+		return message[0]
 
 def modify (name, snippet):
 	"""
@@ -75,6 +78,30 @@ def remove (name):
 		cursor.execute("delete from snippets where keyword = %s", (name,))
 	return name
 
+def catalog ():
+	"""
+	Retrieve all available keywords
+
+	Returns a tuple of keywords in alphabetical order
+	"""
+	logging.error("FIXME: Unimplemented - catalog")
+	with connection, connection.cursor() as cursor:
+		cursor.execute("select keyword from snippets order by keyword")
+		row = cursor.fetchall()
+	return row
+
+def search (text):
+	"""
+	Look for messages that have a word marching the given text
+
+	Return a list of messages that have the given text
+	"""
+	logging.error("FIXME: Unimplemented - search({!r})".format(text))
+	with connection, connection.cursor() as cursor:
+		cursor.execute("select message from snippets where message like '%{:s}%'".format (text))
+		results = cursor.fetchall()
+	return results
+
 def main():
 	"""Main function"""
 	logging.info("Constructing parser")
@@ -104,6 +131,15 @@ def main():
 	remove_parser = subparsers.add_parser("remove", help="Removes record of a given name")
 	remove_parser.add_argument("name", help="Name of the snippet")
 
+	#Subparser for the catalog generator
+	logging.debug("Constructing catalog subparser")
+	catalog_parser = subparsers.add_parser("catalog", help="Generates a catalog of available keywords")
+
+	#Subparser for the search function
+	logging.debug("Constructing search subparser")
+	search_parser = subparsers.add_parser("search", help="Retrives snippets containing a given word")
+	search_parser.add_argument("text", help="Word or text to be seached for")
+
 
 	arguments = parser.parse_args()
 
@@ -126,6 +162,14 @@ def main():
 	elif command == "remove":
 		name = remove(**arguments)
 		print("{!r} snippet has been deleted.".format(name))
+
+	elif command == "catalog":
+		keyword_cat = catalog()
+		print("Here is the catalog from your snippets keys: {!r}".format(keyword_cat))
+
+	elif command == "search":
+		text = search(**arguments)
+		print("Your search for {!r} returned:".format(text))
 
 if __name__=="__main__":
 	main()

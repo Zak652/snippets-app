@@ -547,3 +547,612 @@ DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing modify subparser
 DEBUG:root:Constructing remove subparser
 ERROR:root:FIXME: Unimplemented - remove('Test2')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+ERROR:root:FIXME: Unimplemented - catalog
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+ERROR:root:FIXME: Unimplemented - catalog
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+ERROR:root:FIXME: Unimplemented - catalog
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+ERROR:root:FIXME: Unimplemented - catalog
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+ERROR:root:FIXME: Unimplemented - catalog
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search_msg subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search_msg subparser
+ERROR:root:FIXME: Unimplemented - search_msg('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - put('insert', 'Inserts new data into a database')
+DEBUG:root:snippet Stored successfully.
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - put('commit', 'updates local git repository file with changes made')
+DEBUG:root:snippet Stored successfully.
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
+DEBUG:root:Connect to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing modify subparser
+DEBUG:root:Constructing remove subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+ERROR:root:FIXME: Unimplemented - search('git')
